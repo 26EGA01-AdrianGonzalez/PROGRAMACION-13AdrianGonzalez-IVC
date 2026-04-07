@@ -1,34 +1,34 @@
-// Buz髇 de voz con datos de responsables
+// Buz贸n de voz con datos de responsables
 Algoritmo Act2_Lecc21_Inc2
 	// Variables
 	Definir opcion Como Entero
 	Definir nombre, correo, depto Como Cadena
 	Escribir '== BUZON DE CONTACTO PROFESIONAL =='
 	Escribir '1. Ventas'
-	Escribir '2. Recepci髇'
-	Escribir '3. Direcci髇'
+	Escribir '2. Recepci贸n'
+	Escribir '3. Direcci贸n'
 	Escribir '4. Compras'
-	Escribir 'Elija el n鷐ero del departamento:'
+	Escribir 'Elija el n煤mero del departamento:'
 	Leer opcion
-	// L骻ica de selecci髇
+	// L贸gica de selecci贸n
 	Si opcion==1 Entonces
 		depto <- 'Ventas'
-		nombre <- 'Juan P閞ez'
+		nombre <- 'Juan P茅rez'
 		correo <- 'ventas@empresa.com'
 	SiNo
 		Si opcion==2 Entonces
-			depto <- 'Recepci髇'
-			nombre <- 'Mar韆 L髉ez'
+			depto <- 'Recepci贸n'
+			nombre <- 'Mar铆a L贸pez'
 			correo <- 'recepcion@empresa.com'
 		SiNo
 			Si opcion==3 Entonces
-				depto <- 'Direcci髇'
+				depto <- 'Direcci贸n'
 				nombre <- 'Carlos Ruiz'
 				correo <- 'direccion@empresa.com'
 			SiNo
 				Si opcion==4 Entonces
 					depto <- 'Compras'
-					nombre <- 'Ana Garc韆'
+					nombre <- 'Ana Garc铆a'
 					correo <- 'compras@empresa.com'
 				SiNo
 					depto <- 'ERROR'
@@ -42,6 +42,6 @@ Algoritmo Act2_Lecc21_Inc2
 		Escribir 'Responsable: ', nombre
 		Escribir 'Correo: ', correo
 	SiNo
-		Escribir 'Opci髇 no v醠ida. Intente de nuevo.'
+		Escribir 'Opci贸n no v谩lida. Intente de nuevo.'
 	FinSi
 FinAlgoritmo
