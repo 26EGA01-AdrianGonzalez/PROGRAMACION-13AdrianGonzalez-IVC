@@ -1,4 +1,4 @@
-// Algoritmo que muestra el día de la semana según el número
+// Algoritmo que muestra el dÃ­a de la semana segÃºn el nÃºmero
 Algoritmo Act1_Lecc21_Inc1
 	// Variables
 	Definir num_dia Como Entero
@@ -6,7 +6,7 @@ Algoritmo Act1_Lecc21_Inc1
 	// Solicitar datos al usuario
 	Escribir 'Ingrese un numero del 1 al 7:'
 	Leer num_dia
-	// Evaluación
+	// EvaluaciÃ³n
 	Si num_dia==1 Entonces
 		Escribir 'Hoy es lunes'
 	SiNo
@@ -14,7 +14,7 @@ Algoritmo Act1_Lecc21_Inc1
 			Escribir 'Hoy es martes'
 		SiNo
 			Si num_dia==3 Entonces
-				Escribir 'Hoy es miércoles'
+				Escribir 'Hoy es miÃ©rcoles'
 			SiNo
 				Si num_dia==4 Entonces
 					Escribir 'Hoy es jueves'
@@ -23,7 +23,7 @@ Algoritmo Act1_Lecc21_Inc1
 						Escribir 'Hoy es viernes'
 					SiNo
 						Si num_dia==6 Entonces
-							Escribir 'Hoy es sábado'
+							Escribir 'Hoy es sÃ¡bado'
 						SiNo
 							Si num_dia==7 Entonces
 								Escribir 'Hoy es domingo'
