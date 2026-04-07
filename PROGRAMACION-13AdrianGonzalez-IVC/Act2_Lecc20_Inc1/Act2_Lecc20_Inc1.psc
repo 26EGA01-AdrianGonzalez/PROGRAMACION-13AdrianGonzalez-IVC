@@ -1,14 +1,14 @@
-// Algoritmo que valida una contraseña específica
+// Algoritmo que valida una contraseÃ±a especÃ­fica
 Algoritmo Act2_Lecc20_Inc1
 	// Variables
 	Definir clave_ingresada Como Cadena
 	Escribir '==SISTEMA DE SEGURIDAD=='
 	// Solicitar datos
-	Escribir 'Por favor, ingrese su contraseña:'
+	Escribir 'Por favor, ingrese su contraseÃ±a:'
 	Leer clave_ingresada
-	// Validación
+	// ValidaciÃ³n
 	Si clave_ingresada=='Password123' Entonces
-		Escribir '¡Bienvenida!'
+		Escribir 'Â¡Bienvenida!'
 	SiNo
 		Escribir 'Ingreso prohibido.'
 	FinSi
