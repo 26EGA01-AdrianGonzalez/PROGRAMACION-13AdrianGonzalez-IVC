@@ -1,4 +1,4 @@
-// Algoritmo para un buzón de voz usando Si-Entonces
+// Algoritmo para un buzÃ³n de voz usando Si-Entonces
 Algoritmo Act2_Lecc7_Inc1_If
 	// Variables
 	Definir opcion Como Entero
